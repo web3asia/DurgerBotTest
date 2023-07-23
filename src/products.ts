@@ -2,7 +2,7 @@ export const products = [
   {
     name: "Burger",
     price: 2,
-    image: "Burger_148.png",
+    image: "ufo.png",
   },
   {
     name: "Fries",
