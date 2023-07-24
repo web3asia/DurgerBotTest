@@ -1,5 +1,16 @@
-import "start.tsx"
-import "@/styles/globals.css";
+// src/index.tsx
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
+import "start.tsx"; // Add this line to import the start.tsx file
+import '@/styles/globals.css';
+
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
 import {
   AppBar,
   Box,
