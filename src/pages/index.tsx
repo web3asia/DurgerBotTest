@@ -1,3 +1,8 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
+import "start.tsx"; // Add this line to import the start.tsx file
+import '@/styles/globals.css';
 import Head from "next/head";
 import {
   Badge,
