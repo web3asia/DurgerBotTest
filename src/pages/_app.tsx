@@ -1,3 +1,4 @@
+import "start.tsx"
 import "@/styles/globals.css";
 import {
   AppBar,
